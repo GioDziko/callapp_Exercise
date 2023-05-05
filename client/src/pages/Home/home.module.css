@@ -1,0 +1,18 @@
+.home__wrapper {
+  text-align: center;
+  min-height: 120;
+  line-height: 120px;
+  color: #fff;
+  width: 100%;
+  overflow: scroll;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__newUser {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}

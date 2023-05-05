@@ -1,0 +1,15 @@
+.header {
+  text-align: left;
+  color: #fff;
+  height: 64;
+  padding-inline: 50;
+  line-height: 64px;
+  background-color: #7dbcea;
+  width: 100%;
+}
+.logo {
+  width: fit-content;
+  padding: 0 10px;
+  font-size: 24px;
+  cursor: pointer;
+}

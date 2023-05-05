@@ -5,7 +5,7 @@ const BadRequest = require("../errors/bad-request");
 
 function getAllUsers(req, res, next) {
   const appDir = dirname(require.main.filename);
-  const filePath = path.join(appDir, "daasasta", "users.json");
+  const filePath = path.join(appDir, "data", "users.json");
 
   fs.readFile(filePath, (err, data) => {
     if (err) {
